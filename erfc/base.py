@@ -37,8 +37,8 @@ def get_model():
     model = PySRRegressor(
         niterations=4000,  # < Increase me for better results
         binary_operators=["+", "*", "/"],
-        populations=15,
-        population_size=33,
+        populations=30,
+        population_size=66,
         unary_operators=[
             "exp",
             "erfc",
